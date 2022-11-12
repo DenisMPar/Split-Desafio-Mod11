@@ -1,0 +1,37 @@
+.webTitle {
+  font-size: 96px;
+}
+.webSubtitle {
+  font-size: 64px;
+}
+.webBody {
+  font-size: 40px;
+}
+.label {
+  font-size: 24px;
+}
+.button {
+  font-size: 24px;
+  color: #ffffff;
+}
+.mobileTitle {
+  font-size: 80px;
+}
+.mobileSubtitle {
+  font-size: 58px;
+}
+.mobileBody {
+  font-size: 34px;
+}
+
+.webTitle,
+.webSubtitle,
+.webBody,
+.label,
+.button,
+.mobileTitle,
+.mobileSubtitle,
+.mobileBody {
+  margin: 0;
+  padding: 0;
+}
