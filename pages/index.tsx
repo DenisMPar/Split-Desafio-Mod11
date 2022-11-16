@@ -1,3 +1,6 @@
+import { AboutUsSection } from "../components/aboutUsSection";
+import { ContactSection } from "../components/contactSection";
+import { HomeSection } from "../components/homeSection";
 import { Button } from "../ui/button";
 import {
   SubTitleMobile,
@@ -10,13 +13,9 @@ import {
 export default function Home() {
   return (
     <div>
-      <TitleMobile>HOLA</TitleMobile>
-      <TitleWeb>HOLA</TitleWeb>
-      <SubTitleMobile>HOLA</SubTitleMobile>
-      <SubTitleWeb>HOLA </SubTitleWeb>
-      <Button>
-        <TextButton>Soy el boton</TextButton>
-      </Button>
+      <HomeSection />
+      <AboutUsSection />
+      <ContactSection />
     </div>
   );
 }

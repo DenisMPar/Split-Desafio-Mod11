@@ -2,9 +2,6 @@ import styled from "styled-components";
 export const Button = styled.button`
   font-family: inherit;
   background-color: #457b9d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 50px;
   color: #fff;
@@ -13,4 +10,7 @@ export const Button = styled.button`
   font-size: 20px;
   padding: 9px;
   cursor: pointer;
+  &:hover {
+    background-color: #61a5cf;
+  }
 `;
