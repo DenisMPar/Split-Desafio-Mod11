@@ -30,7 +30,9 @@ export const Header = () => {
   return (
     <div className={styles.container}>
       <div className={styles.container__icon}>
-        <LogoI />
+        <a href="#home">
+          <LogoI />
+        </a>
       </div>
       <div onClick={handleClick} className={styles.container__menu_icon}>
         <MenuI />
@@ -39,12 +41,12 @@ export const Header = () => {
         <nav className={styles.container__nav_mobile}>
           <ul className={styles.container__ul_mobile}>
             <li className={styles.li_mobile}>
-              <a href="#" onClick={handleClick}>
+              <a href="#aboutUs" onClick={handleClick}>
                 <LabelWth>Sobre Nosotros</LabelWth>
               </a>
             </li>
             <li className={styles.li_mobile}>
-              <a href="#" onClick={handleClick}>
+              <a href="#contact" onClick={handleClick}>
                 <LabelWth>Mi Perfil</LabelWth>
               </a>
             </li>
@@ -54,13 +56,13 @@ export const Header = () => {
       <nav className={styles.container__nav_desk}>
         <ul className={styles.container__ul_desk}>
           <li className={styles.li_desk}>
-            <a href="#">
+            <a href="#aboutUs">
               <LabelWth>Sobre Nosotros</LabelWth>
             </a>
           </li>
           <li className={styles.li_desk}>
-            <a href="#">
-              <LabelWth>Mi Perfil</LabelWth>
+            <a href="#contact">
+              <LabelWth>Registrate</LabelWth>
             </a>
           </li>
         </ul>

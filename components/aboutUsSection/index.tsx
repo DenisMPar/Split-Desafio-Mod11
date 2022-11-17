@@ -9,7 +9,7 @@ import {
 
 export function AboutUsSection() {
   return (
-    <Root>
+    <Root id="aboutUs">
       <TextContainer>
         <SubTitleMobile>¿Qué hacemos?</SubTitleMobile>
         <BodyMobile>

@@ -5,7 +5,7 @@ import { Form, Root, TextContainer } from "./styled";
 
 export function ContactSection() {
   return (
-    <Root>
+    <Root id="contact">
       <TextContainer>
         <SubTitleMobile>Registro</SubTitleMobile>
         <BodyMobile>

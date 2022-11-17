@@ -9,7 +9,7 @@ import {
 
 export function HomeSection() {
   return (
-    <Root>
+    <Root id="home">
       <TextContainer>
         <TitleMobile>Split</TitleMobile>
 
