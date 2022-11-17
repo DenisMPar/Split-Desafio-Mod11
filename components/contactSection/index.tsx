@@ -8,8 +8,6 @@ export function ContactSection() {
     <Root>
       <TextContainer>
         <SubTitleMobile>Registro</SubTitleMobile>
-      </TextContainer>
-      <TextContainer>
         <BodyMobile>
           regístrate y recibi un descuento especial de lanzamiento.
         </BodyMobile>
