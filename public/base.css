@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
+:root {
+  --bgc-dark-blue: #1d3557;
+  --ligth-blue: #91e5f6;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: "Bebas Neue", "cursive";
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {

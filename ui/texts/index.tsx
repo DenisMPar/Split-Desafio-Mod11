@@ -1,31 +1,38 @@
-import style from "./text.module.css";
+import styled from "styled-components";
 
 type TextProps = {
   children: string;
 };
 
-export const TitleWeb = ({ children }: TextProps) => {
-  return <h1 className={style.webTitle}>{children}</h1>;
-};
-export const SubTitleWeb = ({ children }: TextProps) => {
-  return <h2 className={style.webSubtitle}>{children}</h2>;
-};
-export const BodyWeb = ({ children }: TextProps) => {
-  return <p className={style.webBody}>{children}</p>;
-};
-export const TextLabel = ({ children }: TextProps) => {
-  return <p className={style.label}>{children}</p>;
-};
-export const TextButton = ({ children }: TextProps) => {
-  return <p className={style.button}>{children}</p>;
-};
+export const TitleDesk = styled.h1`
+  font-size: 48px;
+  margin: 0;
+`;
 
-export const TitleMobile = ({ children }: TextProps) => {
-  return <h1 className={style.mobileTitle}>{children}</h1>;
-};
-export const SubTitleMobile = ({ children }: TextProps) => {
-  return <h2 className={style.mobileSubtitle}>{children}</h2>;
-};
-export const BodyMobile = ({ children }: TextProps) => {
-  return <p className={style.mobileBody}>{children}</p>;
-};
+export const SubTitleDesk = styled.h2`
+  font-size: 64px;
+  margin: 0;
+`;
+
+export const BodyDesk = styled.p`
+  font-size: 40px;
+  margin: 0;
+`;
+export const Label = styled.p`
+  font-size: 24px;
+`;
+
+export const TitleMobile = styled.h1`
+  font-size: 80px;
+  margin: 0;
+`;
+
+export const SubTitleMobile = styled.h2`
+  font-size: 58px;
+  margin: 0;
+`;
+
+export const BodyMobile = styled.p`
+  font-size: 34px;
+  margin: 0;
+`;
