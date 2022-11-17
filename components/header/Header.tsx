@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
-import styles from "../nav/nav.module.css";
+import styles from "../header/header.module.css";
 import { LogoIcon, MenuIcon } from "../../ui/icon";
 import { Label } from "../../ui/texts";
 
@@ -20,8 +20,8 @@ const MenuI = styled(MenuIcon)`
   cursor: pointer;
 `;
 
-export const Nav = () => {
-  const [showNav, setShowNav] = useState(true);
+export const Header = () => {
+  const [showNav, setShowNav] = useState(false);
 
   const handleClick = () => {
     setShowNav(!showNav);

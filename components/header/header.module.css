@@ -6,6 +6,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px 10px;
+  position: sticky;
+  top: 0px;
 }
 
 @media (min-width: 376px) {

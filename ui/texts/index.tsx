@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-type TextProps = {
-  children: string;
-};
-
 export const TitleDesk = styled.h1`
   font-size: 48px;
   margin: 0;
