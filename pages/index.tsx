@@ -1,9 +1,13 @@
-import { Nav } from "../components/nav/Nav";
+import { AboutUsSection } from "../components/aboutUsSection";
+import { ContactSection } from "../components/contactSection";
+import { HomeSection } from "../components/homeSection";
 
 export default function Home() {
   return (
     <div>
-      <Nav />
+      <HomeSection />
+      <AboutUsSection />
+      <ContactSection />
     </div>
   );
 }

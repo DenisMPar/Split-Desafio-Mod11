@@ -9,7 +9,11 @@ type props = {
 const Input: React.FC<props> = (props) => {
   return (
     <Label
-      style={{ display: "flex", flexDirection: "column", fontSize: "24px" }}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        fontSize: "24px",
+      }}
     >
       {props.label}
       <BaseInput placeholder={props.placeHolder}></BaseInput>
