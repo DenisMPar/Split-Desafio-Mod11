@@ -1,21 +1,17 @@
 import { AboutUsSection } from "../components/aboutUsSection";
 import { ContactSection } from "../components/contactSection";
 import { HomeSection } from "../components/homeSection";
-import { Button } from "../ui/button";
-import {
-  SubTitleMobile,
-  SubTitleWeb,
-  TextButton,
-  TitleMobile,
-  TitleWeb,
-} from "../ui/texts";
+import { Header } from "../components/header/Header";
+import { Footer } from "../components/footer/Footer";
 
 export default function Home() {
   return (
     <div>
+      <Header />
       <HomeSection />
       <AboutUsSection />
       <ContactSection />
+      <Footer />
     </div>
   );
 }
