@@ -4,11 +4,14 @@ type props = {
   name: string;
   label?: string;
   placeHolder?: string;
+  id: string;
+  type: string;
 };
 
 const Input: React.FC<props> = (props) => {
   return (
     <Label
+      htmlFor={props.name}
       style={{
         display: "flex",
         flexDirection: "column",
@@ -16,7 +19,11 @@ const Input: React.FC<props> = (props) => {
       }}
     >
       {props.label}
-      <BaseInput placeholder={props.placeHolder}></BaseInput>
+      <BaseInput
+        type={props.type}
+        id={props.id}
+        placeholder={props.placeHolder}
+      ></BaseInput>
     </Label>
   );
 };

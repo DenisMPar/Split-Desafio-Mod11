@@ -32,3 +32,7 @@ export const BodyMobile = styled.p`
   font-size: 34px;
   margin: 0;
 `;
+export const Tiny = styled.p`
+  font-size: 25px;
+  margin: 0;
+`;

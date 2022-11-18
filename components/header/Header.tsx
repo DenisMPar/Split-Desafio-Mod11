@@ -14,9 +14,9 @@ const LogoI = styled(LogoIcon)`
   cursor: pointer;
 `;
 const MenuI = styled(MenuIcon)`
-  width: 30px;
-  height: 30px;
-  fill: var(--ligth-blue);
+  width: 40px;
+  height: 40px;
+  fill: #fff;
   cursor: pointer;
 `;
 
