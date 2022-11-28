@@ -47,7 +47,7 @@ export const Header = () => {
             </li>
             <li className={styles.li_mobile}>
               <a href="#contact" onClick={handleClick}>
-                <LabelWth>Mi Perfil</LabelWth>
+                <LabelWth>Registrate </LabelWth>
               </a>
             </li>
           </ul>
