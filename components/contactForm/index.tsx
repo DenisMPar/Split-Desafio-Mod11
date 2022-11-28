@@ -31,13 +31,24 @@ export function ContactForm() {
   return (
     <Form onSubmit={handleSubmit}>
       <div style={{ display: "flex", flexDirection: "column", gap: "22px" }}>
-        <TextAreaComp label="Name:" id="message" name="message" />
+        <TextAreaComp
+          label="Name:"
+          id="message"
+          name="message"
+          required={true}
+        />
         <ValidationError
           prefix="Message"
           field="message"
           errors={state.errors}
         />
-        <Input type="email" id="email" name="email" label="email:" />
+        <Input
+          type="email"
+          id="email"
+          name="email"
+          label="email:"
+          required={true}
+        />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
       <Button type="submit" disabled={state.submitting}>

@@ -4,6 +4,7 @@ type props = {
   name: string;
   label?: string;
   placeHolder?: string;
+  required: boolean;
   id: string;
   type: string;
 };
@@ -23,6 +24,7 @@ const Input: React.FC<props> = (props) => {
         type={props.type}
         id={props.id}
         placeholder={props.placeHolder}
+        required={props.required}
       ></BaseInput>
     </Label>
   );
