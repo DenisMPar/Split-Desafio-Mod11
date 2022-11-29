@@ -1,5 +1,6 @@
 import { AboutUsSection } from "../components/aboutUsSection";
 import { ContactSection } from "../components/contactSection";
+import { ProductsSection } from "../components/products";
 import { HomeSection } from "../components/homeSection";
 import { Header } from "../components/header/Header";
 import { Footer } from "../components/footer/Footer";
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <HomeSection />
       <AboutUsSection />
+      <ProductsSection />
       <ContactSection />
       <Footer />
     </div>

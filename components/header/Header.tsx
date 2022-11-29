@@ -46,6 +46,11 @@ export const Header = () => {
               </a>
             </li>
             <li className={styles.li_mobile}>
+              <a href="#products" onClick={handleClick}>
+                <LabelWth>Productos</LabelWth>
+              </a>
+            </li>
+            <li className={styles.li_mobile}>
               <a href="#contact" onClick={handleClick}>
                 <LabelWth>Registrate </LabelWth>
               </a>
@@ -58,6 +63,11 @@ export const Header = () => {
           <li className={styles.li_desk}>
             <a href="#aboutUs">
               <LabelWth>Sobre Nosotros</LabelWth>
+            </a>
+          </li>
+          <li className={styles.li_desk}>
+            <a href="#products" onClick={handleClick}>
+              <LabelWth>Productos</LabelWth>
             </a>
           </li>
           <li className={styles.li_desk}>
